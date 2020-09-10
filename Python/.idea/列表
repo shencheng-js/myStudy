@@ -1,0 +1,22 @@
+people=['zhou','mao','zhu','he']
+print(people)
+
+print('\n')
+print('I want to invite the next people tocometo have a diner；')
+for i in range(0,4):
+    print(people[i])
+
+print('\n')
+
+print('The situation has changed that '+people[1]+' can not come.')
+del people[1]
+print("So,wo changed the list,and "+'li'+' will come to attend the dinner.')
+people.append('li')
+
+print('After the change I want to invite the next people tocometo have a diner；')
+for i in range(0,4):
+    print(people[i])
+
+
+
+#del在前选择其相应坐标删除，而remove则不同，其利用确切值

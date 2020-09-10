@@ -1,0 +1,26 @@
+#占位符的使用
+#print("My name is %s,and my age is %d"%("Shen Cheng",20))
+
+#while的使用
+"""
+n=int(input("请输入终止数"))
+i=1
+su=0
+while i<=n:
+    su+=i
+    i+=1
+print("从%d到%d的和为%d"%(1,n,su))
+
+
+#for循环的使用
+#range(n)表示了从0到n-1的一个序列块即：0，1，2，3，4，5····n-1；  python大多是左闭右开
+
+n = int(input("请输入终止数\n"))
+i = 1
+su = 0
+for i in range(1, n + 1,1):
+    su += i
+    i += 1
+print("从%d到%d的和为%c" % (1, n, su))"""
+
+help(range)

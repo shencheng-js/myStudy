@@ -1,0 +1,21 @@
+'''def f(x,y):
+    z=x*x+y*y
+    return z
+ret=f(3,4)
+print(ret)
+
+def printf(x=12,y=100,z="函数"):
+    print(x,y,z)
+
+printf(y=109,z="asd")
+
+
+#不确定传入数据个数
+def func(name,*args):
+    print(name+"有以下雅称：")
+    for i in args:
+        print(i)
+
+func("shen","asd","zxc","qwe")
+'''
+d={a:123,z:1234,q:12345}

@@ -1,0 +1,12 @@
+alap= ['a','b','z','a','w','q','d']
+print(alap)
+
+print("here is the sorted")
+print(sorted(alap))
+
+print(alap)
+
+alap.reverse()
+print(alap)
+
+print(len(alap))

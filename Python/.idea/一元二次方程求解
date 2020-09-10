@@ -1,0 +1,18 @@
+#输入三个系数
+A=float(input("请输入一元二次方程中A的值"))
+B=float(input("请输入一元二次方程中B的值"))
+C=float(input("请输入一元二次方程中C2的值"))
+#计算根
+delta=B*B-4*A*C
+#判断是否有根
+if delta<0:
+    print("该方程无解")
+elif delta==0:
+    x1=B/(-2*A)
+    print("该方程有两个相同根",x1)
+else:
+    print("该方程有两个根：x1=",(B+delta**0.5)/(-2*A))
+    print("另一个根：x2=",(B-delta**0.5)/(-2*A))
+
+
+    #注意:注意中文输入法与英文输入法，逗号还有等等····
